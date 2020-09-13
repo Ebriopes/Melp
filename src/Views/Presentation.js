@@ -1,18 +1,25 @@
-import React, { useEffect, useState }	from 'react';
-import { CircularProgress, Container } 	from '@material-ui/core';
+import React, { useEffect, useContext }	from 'react';
+import { CircularProgress, Container }	from '@material-ui/core';
 import RestaurantService 				from '../Services/RestaurantService';
 import RestaurantCard 					from '../Components/RestaurantCard';
+import MenuSort							from '../Components/MenuSort';
+import { SortContext } 					from '../Contexts/SortContext';
 
 function Presentation ( ) {
-	const [restaurants, setRestaurants] = useState([]);
+	const {sortBase, setSortBase} = useContext(SortContext);
 
 	const showRestaurants = () => {
-		if ( restaurants.length === 0 ) {
+		if ( sortBase.length === 0 ) {
 			return <CircularProgress/>
 		} else {
-			console.info(restaurants)
-			//return restaurants.forEach((restaurant) => <RestaurantCard {...restaurant}/>)
-			return <RestaurantCard {...restaurants}/>
+			console.info(sortBase)
+			return <React.Fragment>
+					{sortBase.reduce((prev,restaurant) => 
+					<> 
+						{prev} 
+						<RestaurantCard {...restaurant}/> 
+					</>,<></>)}
+				</React.Fragment>
 		}
 	};
 	
@@ -20,7 +27,7 @@ function Presentation ( ) {
 		try{
 			RestaurantService()
 			.then((data) => {
-				setRestaurants(data[1])
+				setSortBase(data)
 			})
 		}catch (error){
 			console.error(error);
@@ -29,6 +36,7 @@ function Presentation ( ) {
 	
 	return (
 		<Container>
+			<MenuSort/>
 			{showRestaurants()}
 		</Container>
 	)

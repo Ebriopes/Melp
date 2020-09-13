@@ -32,7 +32,7 @@ function Restaurant ( { address, contact, name, rating } ) {
 	const stars = () => 
 		Array( 5 ).fill().map( ( _, i ) => 
 			<span role="img" aria-label="star" key={ Math.random() }>
-				{rating > i ? '🌟' : '☆' }
+				{rating >= i ? '🌟' : '☆' }
 			</span>)
 
 	return (

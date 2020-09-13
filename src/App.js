@@ -1,9 +1,9 @@
-import React                from 'react';
-import { makeStyles }       from '@material-ui/core';
-import Navbar               from './Components/Navbar';
-import Home                 from './Views/Home';
-import Presentation         from './Views/Presentation';
-
+import React               from 'react';
+import { makeStyles }      from '@material-ui/core';
+import Navbar              from './Components/Navbar';
+import Home                from './Views/Home';
+import Presentation        from './Views/Presentation';
+import SortContextProvider from './Contexts/SortContext';
 
 const useStyle = makeStyles(() =>({
   App: {
@@ -19,9 +19,11 @@ function App() {
   const classes = useStyle();
   return (
     <div className={classes.App}>
-      <Navbar/>
-      <Home/>
-      <Presentation/>
+      <SortContextProvider>
+        <Navbar/>
+        {/* <Home/> */}
+        <Presentation/>
+      </SortContextProvider>
     </div>
   );
 }
