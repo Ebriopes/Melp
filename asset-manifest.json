@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/Melp/static/js/main.c524375d.chunk.js",
+    "main.js.map": "/Melp/static/js/main.c524375d.chunk.js.map",
+    "runtime-main.js": "/Melp/static/js/runtime-main.46bbd13e.js",
+    "runtime-main.js.map": "/Melp/static/js/runtime-main.46bbd13e.js.map",
+    "static/js/2.b41631f3.chunk.js": "/Melp/static/js/2.b41631f3.chunk.js",
+    "static/js/2.b41631f3.chunk.js.map": "/Melp/static/js/2.b41631f3.chunk.js.map",
+    "index.html": "/Melp/index.html",
+    "precache-manifest.5d3576748355e077103c614bddb1e838.js": "/Melp/precache-manifest.5d3576748355e077103c614bddb1e838.js",
+    "service-worker.js": "/Melp/service-worker.js",
+    "static/js/2.b41631f3.chunk.js.LICENSE.txt": "/Melp/static/js/2.b41631f3.chunk.js.LICENSE.txt",
+    "static/media/background.jpeg": "/Melp/static/media/background.c49abded.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46bbd13e.js",
+    "static/js/2.b41631f3.chunk.js",
+    "static/js/main.c524375d.chunk.js"
+  ]
+}
