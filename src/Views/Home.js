@@ -1,5 +1,10 @@
-import { Container, makeStyles, Typography } from '@material-ui/core';
-import React from 'react';
+import React		from 'react';
+import ShowRestaurants	from '../Components/ShowRestaurants';
+import {
+	Container,
+	makeStyles,
+	Typography,
+} from '@material-ui/core';
 
 const navHeight = 64;
 
@@ -8,7 +13,10 @@ const useStyle = makeStyles(() => ({
 		height: `calc( 100vh - ${navHeight}px )`,
 	},
 	textPrincipal: {
+		width: '70%',
 		color: 'whitesmoke',
+		margin: '15px auto',
+		textAlign: 'center',
 	}
 }))
 
@@ -17,9 +25,12 @@ function Home() {
 
 	return (
 		<Container className={classes.container}>
-			<Typography variant="h1" className={classes.textPrincipal}>
-				Find a excelent place to relax while you feed
-			</Typography>
+			<div className={classes.textPrincipal}>
+				<Typography variant="h3">
+					Find a excelent place to relax while you feed
+				</Typography>
+			</div>
+			<ShowRestaurants/>
 		</Container>
 	)
 };
