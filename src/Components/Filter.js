@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 
 import {
-	ExpandMore as ExpandMoreIcon
-} from '@material-ui/icons';
-
-import {
 	Button,
 	ButtonGroup,
 	makeStyles,
