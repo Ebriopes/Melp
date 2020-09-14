@@ -11,7 +11,7 @@ const useStyle = makeStyles(() => ({
 	card: {
 		margin: '20px auto',
 		width: '300px',
-		height: '300px',
+		height: '350px',
 	},
 }))
 
@@ -44,24 +44,27 @@ function Restaurant ( { address, contact, name, rating } ) {
 		return phrase;
 	};
 	
-	const stars = () => 
-		Array( 5 ).fill().map( ( _, i ) => 
-			<span role="img" aria-label="star" key={ Math.random() }>
-				{rating >= i ? '🌟' : '☆' }
-			</span>)
+	const stars = () => (
+		<>
+			{Array( 5 ).fill().map( ( _, i ) => 
+				<span role="img" aria-label="star" key={ Math.random() }>
+					{rating >= i ? '🌟' : '☆' }
+				</span>)
+			}
+			<br/>
+			<Typography variant="subtitle">
+				{comment()}
+			</Typography>
+		</>
+		)
 
 	return (
 		<Card raised={true} className={classes.card}>
 			<CardHeader title={ name } subheader={stars()}/>
 			<CardContent>
-				<Typography variant="subtitle">
-					{comment()}
-				</Typography>
+				
 				<Typography variant="overline">
-					{ address.street }, 
-				</Typography>
-				<Typography variant="overline">
-					{ address.city }, { address.state }
+					{ address.street }, { address.city }, { address.state }
 				</Typography>
 				<br/>
 				<Typography variant="body2">
