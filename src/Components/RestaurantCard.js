@@ -68,13 +68,13 @@ function Restaurant ( { address, contact, name, rating } ) {
 				</Typography>
 				<br/>
 
-				<Typography variant="srOnly">
-					Phone: { contact.phone }
+				<Typography variant="caption">
+					Phone: { contact.phone } <br/>
 				</Typography>
-				<Typography variant="srOnly">
-					Email: { contact.email }
+				<Typography variant="caption">
+					Email: { contact.email } <br/>
 				</Typography>
-				<Typography variant="srOnly">
+				<Typography variant="caption">
 					Website: { contact.site } 
 				</Typography>
 			</CardContent>
