@@ -1,7 +1,23 @@
-import { Card, CardContent, CardHeader, Typography } from '@material-ui/core';
 import React from 'react';
+import {
+	Card,
+	CardContent,
+	CardHeader,
+	makeStyles,
+	Typography,
+} from '@material-ui/core';
+
+const useStyle = makeStyles(() => ({
+	card: {
+		margin: '20px auto',
+		width: '300px',
+		height: '300px',
+	},
+}))
 
 function Restaurant ( { address, contact, name, rating } ) {
+	const classes = useStyle();
+
 	const comment = () => {
 		let phrase = '';
 	
@@ -23,11 +39,10 @@ function Restaurant ( { address, contact, name, rating } ) {
 				break;
 			default:
 				break;
-		}
+		};
 	
 		return phrase;
-
-	}
+	};
 	
 	const stars = () => 
 		Array( 5 ).fill().map( ( _, i ) => 
@@ -36,18 +51,19 @@ function Restaurant ( { address, contact, name, rating } ) {
 			</span>)
 
 	return (
-		<Card>
+		<Card raised={true} className={classes.card}>
 			<CardHeader title={ name } subheader={stars()}/>
 			<CardContent>
-				<Typography variant="body1">
+				<Typography variant="subtitle">
 					{comment()}
 				</Typography>
-				<Typography variant="body2">
+				<Typography variant="overline">
 					{ address.street }, 
 				</Typography>
-				<Typography variant="body2">
+				<Typography variant="overline">
 					{ address.city }, { address.state }
 				</Typography>
+				<br/>
 				<Typography variant="body2">
 					Phone: { contact.phone }
 				</Typography>
