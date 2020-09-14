@@ -35,7 +35,7 @@ function Restaurant ( { address, contact, name, rating } ) {
 				phrase = 'Good, nice place';
 				break;
 			case 4:
-				phrase = 'Exelent restaurant, we recommend make a reservation';
+				phrase = 'Exelent restaurant\nWe recommend make a reservation';
 				break;
 			default:
 				break;
@@ -52,7 +52,7 @@ function Restaurant ( { address, contact, name, rating } ) {
 				</span>)
 			}
 			<br/>
-			<Typography variant="subtitle">
+			<Typography variant="subtitle1">
 				{comment()}
 			</Typography>
 		</>
@@ -63,17 +63,18 @@ function Restaurant ( { address, contact, name, rating } ) {
 			<CardHeader title={ name } subheader={stars()}/>
 			<CardContent>
 				
-				<Typography variant="overline">
+				<Typography variant="body1">
 					{ address.street }, { address.city }, { address.state }
 				</Typography>
 				<br/>
-				<Typography variant="body2">
+
+				<Typography variant="srOnly">
 					Phone: { contact.phone }
 				</Typography>
-				<Typography variant="body2">
+				<Typography variant="srOnly">
 					Email: { contact.email }
 				</Typography>
-				<Typography variant="body2">
+				<Typography variant="srOnly">
 					Website: { contact.site } 
 				</Typography>
 			</CardContent>
