@@ -1,4 +1,4 @@
-import React		from 'react';
+import React			from 'react';
 import ShowRestaurants	from '../Components/ShowRestaurants';
 import {
 	Container,
