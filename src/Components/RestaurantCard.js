@@ -13,29 +13,32 @@ const useStyle = makeStyles(() => ({
 		width: '300px',
 		height: '350px',
 	},
+	cardHeader: {
+		marginBottom: '0',
+	}
 }))
 
 function Restaurant ( { address, contact, name, rating } ) {
 	const classes = useStyle();
 
 	const comment = () => {
-		let phrase = '';
+		let phrase;
 	
 		switch (rating) {
 			case 0:
-				phrase = 'BAD place';
+				phrase = <>Terrible!</>;
 				break;
 			case 1:
-				phrase = 'Be careful here, don\'t is good';
+				phrase = <>Bad<br/>Preferably avoid this place</>;
 				break;
 			case 2:
-				phrase = 'Regular';
+				phrase = <>Regular<br/>You can try your lucky</>;
 				break;
 			case 3:
-				phrase = 'Good, nice place';
+				phrase = <>Good<br/>Nice to go frecuently</>;
 				break;
 			case 4:
-				phrase = 'Exelent restaurant\nWe recommend make a reservation';
+				phrase = <>Exelent restaurant<br/>We recommend you make a reservation</>;
 				break;
 			default:
 				break;
@@ -46,13 +49,11 @@ function Restaurant ( { address, contact, name, rating } ) {
 	
 	const stars = () => (
 		<>
-			{Array( 5 ).fill().map( ( _, i ) => 
-				<span role="img" aria-label="star" key={ Math.random() }>
-					{rating >= i ? '🌟' : '☆' }
-				</span>)
-			}
-			<br/>
 			<Typography variant="subtitle1">
+				{Array( 5 ).fill().map( ( _, i ) => 
+					<span role="img" aria-label="star" key={ Math.random() }>
+						{rating >= i ? '🌟' : '☆' }	</span>)}
+				<span style={{width: '100%'}}/>
 				{comment()}
 			</Typography>
 		</>
@@ -60,7 +61,7 @@ function Restaurant ( { address, contact, name, rating } ) {
 
 	return (
 		<Card raised={true} className={classes.card}>
-			<CardHeader title={ name } subheader={stars()}/>
+			<CardHeader title={ name } subheader={stars()} className={classes.cardheader}/>
 			<CardContent>
 				
 				<Typography variant="body1">
