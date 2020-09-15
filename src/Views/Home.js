@@ -10,7 +10,7 @@ const useStyle = makeStyles( () => ( {
 	textPrincipal: {
 		textShadow: '0 0 8px #000',
 		color: 'floralwhite',
-		margin: '15vh auto',
+		margin: '10vh auto',
 		textAlign: 'center',
 	}
 }));
