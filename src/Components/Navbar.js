@@ -13,6 +13,7 @@ const useStyle = makeStyles( ( ) => ( {
 		color: 'coral',
 		boxShadow: 'none',
 		fontFamily: 'Lobster',
+		textShadow: '0 0 8px #000',
 	},
 	title: {
 		flexGrow: '1',
@@ -23,6 +24,7 @@ const useStyle = makeStyles( ( ) => ( {
 		fontFamily: 'inherit',
 		fontSize: 'larger',
 		textTransform: 'capitalize',
+		textShadow: 'inherit',
 	},
 } ) );
 

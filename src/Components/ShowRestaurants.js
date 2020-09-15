@@ -1,32 +1,60 @@
 import React, { useEffect, useState }	from 'react';
-import { CircularProgress }				from '@material-ui/core';
+import { CircularProgress, makeStyles, Typography }	from '@material-ui/core';
 import RestaurantService 				from '../Services/RestaurantService';
 import RestaurantCard 					from './RestaurantCard';
 import Filter							from './Filter';
 
-function Presentation () {
-	const [ data, setData ] = useState([]);
+const useStyle = makeStyles( () => ( {
+	progress: {
+		display: 'block',
+		color: 'coral',
+		margin: '30px auto',
+	}
+} ) );
 
-	const showRestaurants = (base) => {
+function Presentation () {
+	const [ data, setData ] = useState( [ ] );
+	const classes = useStyle();
+
+	const showRestaurants = ( baseData ) => {
 		return <React.Fragment>
-				{base.reduce((prev,restaurant) => 
+
+				{baseData.reduce( ( prev, restaurant ) =>
 					<> 
 						{prev} 
 						<RestaurantCard {...restaurant}/> 
 					</>,<></>)}
+
 				</React.Fragment>
 	};
+
+	const loading = ( baseData ) => {
+		if ( baseData === null ){
+
+			return <Typography variant='h2' align='center' color='error'>
+						Oh, no!<br/>
+						There isn't restaurants 😞
+					</Typography>
+
+		} else if ( baseData.length === 0 ){
+
+			return <CircularProgress size={80} thickness={5} className={classes.progress}/>
+
+		}else{
+			
+			return <Filter data={data} setData={setData} showR={showRestaurants}/>
+
+		}
+	};
 	
-	useEffect(() =>{
-		RestaurantService().then((dataBase)=> setData(dataBase))
+	useEffect( () => {
+		RestaurantService()
+		.then( ( dataBase ) => setData( dataBase ) )
 	}, []);
 
 	return (
 		<React.Fragment>
-			{data.length === 0 ? 
-				<CircularProgress/> : 
-				<Filter data={data} setData={setData} showR={showRestaurants}/>
-			}
+			{loading( data )}
 		</React.Fragment>
 	)
 };

@@ -6,10 +6,12 @@ import background          from './assets/background.jpeg';
 
 const useStyle = makeStyles(() =>({
   bg: {
+    objectFit: 'cover',
+    height: '100vh',
     width: '100%',
     zIndex: '-1',
     position: 'absolute',
-    maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0))',
+    maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0.3) 85%, rgba(0,0,0,0))',
   },
 }))
 

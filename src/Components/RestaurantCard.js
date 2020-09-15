@@ -52,7 +52,7 @@ function Restaurant ( { address, contact, name, rating } ) {
 			<Typography variant="subtitle1">
 				{Array( 5 ).fill().map( ( _, i ) => 
 					<span role="img" aria-label="star" key={ Math.random() }>
-						{rating >= i ? '🌟' : '⭐☆' }	</span>)}
+						{rating >= i ? '🌟' : '☆' }	</span>)}
 				{comment()}
 			</Typography>
 		</>

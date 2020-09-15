@@ -6,26 +6,29 @@ import {
 	Typography,
 } from '@material-ui/core';
 
-const useStyle = makeStyles(() => ({
+const useStyle = makeStyles( () => ( {
 	textPrincipal: {
-		width: '70%',
-		color: 'whitesmoke',
+		textShadow: '0 0 8px #000',
+		color: 'floralwhite',
 		margin: '10vh auto',
 		textAlign: 'center',
 	}
-}))
+}));
 
 function Home() {
 	const classes = useStyle();
 
 	return (
 		<Container>
+
 			<div className={classes.textPrincipal}>
 				<Typography variant="h3">
 					Find a excelent place to relax while you feed
 				</Typography>
 			</div>
+
 			<ShowRestaurants/>
+
 		</Container>
 	)
 };
