@@ -14,7 +14,7 @@ const useStyle = makeStyles(() => ({
 		height: '350px',
 	},
 	cardHeader: {
-		marginBottom: '0',
+		paddingBottom: '0',
 	}
 }))
 
@@ -26,7 +26,7 @@ function Restaurant ( { address, contact, name, rating } ) {
 	
 		switch (rating) {
 			case 0:
-				phrase = <>Terrible!</>;
+				phrase = <span>Terrible!</span>;
 				break;
 			case 1:
 				phrase = <>Bad<br/>Preferably avoid this place</>;
@@ -52,8 +52,7 @@ function Restaurant ( { address, contact, name, rating } ) {
 			<Typography variant="subtitle1">
 				{Array( 5 ).fill().map( ( _, i ) => 
 					<span role="img" aria-label="star" key={ Math.random() }>
-						{rating >= i ? '🌟' : '☆' }	</span>)}
-				<span style={{width: '100%'}}/>
+						{rating >= i ? '🌟' : '⭐☆' }	</span>)}
 				{comment()}
 			</Typography>
 		</>
