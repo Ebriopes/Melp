@@ -31,15 +31,14 @@ function Presentation () {
 	const loading = ( baseData ) => {
 		if ( baseData === null ){
 
-			return <><Typography variant='h2' align='center' color='error'>
+			return <Typography variant='h2' align='center' color='error'>
 						Oh, no!<br/>
 						There isn't restaurants 😞
 					</Typography>
-					<CircularProgress size={80} thickness={5} className={classes.progress}/></>
 
 		} else if ( baseData.length === 0 ){
 
-			return <CircularProgress/>
+			return <CircularProgress size={80} thickness={5} className={classes.progress}/>
 
 		}else{
 			
