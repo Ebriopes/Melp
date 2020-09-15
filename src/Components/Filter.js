@@ -8,15 +8,19 @@ import {
 
 const useStyle = makeStyles( () => ( {
 	menu: {
-		display: 'flex',
-		width: 'fit-content',
-		marginRight: '5px',
-		marginLeft: 'auto',
+		display:		'flex',
+		width:			'fit-content',
+		marginLeft:		'auto',
+		marginRight:	'5px',
+		backgroundColor:'beige',
 	},
 	cards:{
-		display: 'flex',
-		flexWrap: 'wrap',
-	}
+		display:	'flex',
+		flexWrap:	'wrap',
+	},
+	btn:{
+		backgroundColor: 'inherit',
+	},
 } ) );
 
 function Filter ( { data, setData, showR } ) {
@@ -37,14 +41,22 @@ function Filter ( { data, setData, showR } ) {
 	};
 
 	const sortAlpha = () => {
+
 		const sort = () =>
+
 			data.sort( ( a, b ) => {
 				if ( a.name > b.name ) {
+
 					return -1;
+
 				} else if ( a.name < b.name ) {
+					
 					return 1;
+
 				} else {
+					
 					return 0;
+
 				}
 			} );
 
@@ -57,9 +69,9 @@ function Filter ( { data, setData, showR } ) {
 
 	return (
 		<div>
-			<ButtonGroup variant='contained' className={ classes.menu }>
-				<Button onClick={ sortRating }>Rating</Button>
-				<Button onClick={ sortAlpha }>Name</Button>
+			<ButtonGroup variant='contained' color='inherit' className={ classes.menu }>
+				<Button onClick={ sortRating } className={classes.btn}>Rating</Button>
+				<Button onClick={ sortAlpha } className={classes.btn}>Name</Button>
 			</ButtonGroup>
 			<div className={classes.cards}>
 				{showR(data)}
