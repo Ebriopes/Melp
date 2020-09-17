@@ -1,55 +1,54 @@
-import React from 'react';
+import React 	from 'react';
+import useStyle from '../Styles/MaterialStyles';
+
 import {
 	Card,
 	CardContent,
 	CardHeader,
 	Typography,
 } from '@material-ui/core';
-import useStyle from '../Styles/MaterialStyles';
+
+const comment = ( rating, style ) => {
+	let phrase;
+
+	switch (rating) {
+		case 0:
+			phrase = <span>Terrible!</span>;
+			break;
+		case 1:
+			phrase = <>Bad<br/>Preferably avoid this place</>;
+			break;
+		case 2:
+			phrase = <>Regular<br/>You can try your lucky</>;
+			break;
+		case 3:
+			phrase = <>Good<br/>Nice to go frecuently</>;
+			break;
+		case 4:
+			phrase = <>Exelent restaurant<br/>We recommend you make a reservation</>;
+			break;
+		default:
+			break;
+	};
+
+	return phrase;
+};
+
+const stars = ( rating, style ) => (
+	<>
+		{<div>{Array( 5 ).fill().map( ( _, i ) => 
+			<span role="img" aria-label="star" key={ Math.random() }>
+				{rating >= i ? '🌟' : '☆' }	
+			</span>)}</div>}
+		{comment( rating, style )}</>
+);
 
 function Restaurant ( { address, contact, name, rating } ) {
 	const style = useStyle();
-
-	const comment = () => {
-		let phrase;
 	
-		switch (rating) {
-			case 0:
-				phrase = <span>Terrible!</span>;
-				break;
-			case 1:
-				phrase = <>Bad<br/>Preferably avoid this place</>;
-				break;
-			case 2:
-				phrase = <>Regular<br/>You can try your lucky</>;
-				break;
-			case 3:
-				phrase = <>Good<br/>Nice to go frecuently</>;
-				break;
-			case 4:
-				phrase = <>Exelent restaurant<br/>We recommend you make a reservation</>;
-				break;
-			default:
-				break;
-		};
-	
-		return phrase;
-	};
-	
-	const stars = () => (
-		<>
-			<Typography variant="subtitle1">
-				{Array( 5 ).fill().map( ( _, i ) => 
-					<span role="img" aria-label="star" key={ Math.random() }>
-						{rating >= i ? '🌟' : '☆' }	</span>)}
-				{comment()}
-			</Typography>
-		</>
-		)
-
 	return (
 		<Card raised={true} className={style.card}>
-			<CardHeader title={ name } subheader={stars()} className={style.cardheader}/>
+			<CardHeader title={ name } subheader={stars( rating, style )} className={style.cardheader}/>
 			<CardContent>
 				
 				<Typography variant="body1">
