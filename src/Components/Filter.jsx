@@ -1,11 +1,11 @@
-import React, { useContext } from 'react';
-import { RestaurantContext } from '../Contexts/RestaurantContext';
+import React, { useContext }	from 'react';
+import { RestaurantContext }	from '../Contexts/RestaurantContext';
+import useStyle 				from '../Styles/MaterialStyles';
 
 import {
 	Button,
 	ButtonGroup,
 } from '@material-ui/core';
-import useStyle from '../Styles/MaterialStyles';
 
 function Filter ( ) {
 	const { sortAlpha, sortRating } = useContext(RestaurantContext);
