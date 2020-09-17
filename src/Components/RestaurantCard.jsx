@@ -3,23 +3,12 @@ import {
 	Card,
 	CardContent,
 	CardHeader,
-	makeStyles,
 	Typography,
 } from '@material-ui/core';
-
-const useStyle = makeStyles(() => ({
-	card: {
-		margin: '20px auto',
-		width: '300px',
-		height: '350px',
-	},
-	cardHeader: {
-		paddingBottom: '0',
-	}
-}))
+import useStyle from '../Styles/MaterialStyles';
 
 function Restaurant ( { address, contact, name, rating } ) {
-	const classes = useStyle();
+	const style = useStyle();
 
 	const comment = () => {
 		let phrase;
@@ -59,8 +48,8 @@ function Restaurant ( { address, contact, name, rating } ) {
 		)
 
 	return (
-		<Card raised={true} className={classes.card}>
-			<CardHeader title={ name } subheader={stars()} className={classes.cardheader}/>
+		<Card raised={true} className={style.card}>
+			<CardHeader title={ name } subheader={stars()} className={style.cardheader}/>
 			<CardContent>
 				
 				<Typography variant="body1">
