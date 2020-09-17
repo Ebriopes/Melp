@@ -15,7 +15,33 @@ const useStyle = makeStyles(() =>({
 		margin:		'10vh auto',
 		color:		'floralwhite',
 	},
-	
+	load: {
+		display:	'block',
+		color:		'coral',
+		margin:		'30px auto',
+	},
+	filterGroup: {
+		display:		'flex',
+		width:			'fit-content',
+		marginLeft:		'auto',
+		marginRight:	'5px',
+		backgroundColor:'coral',
+	},
+	cards:{
+		display:	'flex',
+		flexWrap:	'wrap',
+	},
+	btn:{
+		backgroundColor: 'inherit',
+	},
+	card: {
+		margin: '20px auto',
+		width: '300px',
+		height: '350px',
+	},
+	cardHeader: {
+		paddingBottom: '0',
+	},
 }))
 
 export default useStyle;
