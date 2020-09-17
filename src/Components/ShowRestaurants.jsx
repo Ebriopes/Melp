@@ -10,7 +10,7 @@ import {
 }	from '@material-ui/core';
 
 /* Function will show a response depend of data base state */
-const loading = ( baseData, styles ) => {
+const loading = ( baseData, style ) => {
 	if ( baseData === null || baseData === undefined ) {
 		
 		return <Typography variant='h2' align='center' color='error'>
@@ -19,20 +19,20 @@ const loading = ( baseData, styles ) => {
 				</Typography>
 
 	} else if ( baseData.length === 0 ){
-		return <CircularProgress size={80} thickness={5} className={styles.load}/>
+		return <CircularProgress size={80} thickness={5} className={style.load}/>
 	}else{
-		return renderRestaurants(baseData)
+		return renderRestaurants( baseData, style );
 	}
 };
 
 /* Function will render all cards */
-const renderRestaurants = ( baseData, styles ) => {
+const renderRestaurants = ( baseData, style ) => {
 	
 	return ( 
-		<div className={ styles.cards }>
+		<div className={ style.cards }>
 			{baseData.map( 
 				( restaurant ) => 
-					<RestaurantCard {...restaurant} /> )}
+					<RestaurantCard {...restaurant} key={Math.random()}/> )}
 		</div>
 	)
 }
