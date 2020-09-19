@@ -10,27 +10,31 @@ import {
 }	from '@material-ui/core';
 
 /* Function will show a response depend of data base state */
-const loading = ( baseData, style ) => {
+const loading = ( baseData, style, maxShow ) => {
 	if ( baseData === null || baseData === undefined ) {
 		
 		return <Typography variant='h2' align='center' color='error'>
-					Oh, no!<br/>
+			Oh, no!<br />
 					There isn't restaurants 😞
 				</Typography>
 
-	} else if ( baseData.length === 0 ){
-		return <CircularProgress size={80} thickness={5} className={style.load}/>
-	}else{
-		return renderRestaurants( baseData, style );
+	} else if ( baseData.length === 0 ) {
+		return <CircularProgress size={ 80 } thickness={ 5 } className={ style.load } />
+	} else {
+		return (
+			<>
+			< Filter />
+			{ renderRestaurants( baseData, style, maxShow ) }</>
+		);
 	}
 };
 
 /* Function will render all cards */
-const renderRestaurants = ( baseData, style ) => {
+const renderRestaurants = ( baseData, style, maxShow ) => {
 	
 	return ( 
 		<div className={ style.cards }>
-			{baseData.map( 
+			{baseData.slice(0,maxShow).map( 
 				( restaurant ) => 
 					<RestaurantCard {...restaurant} key={Math.random()}/> )}
 		</div>
@@ -39,15 +43,14 @@ const renderRestaurants = ( baseData, style ) => {
 
 function ShowRestaurants () {
 	/* Call the data base from Context */
-	const { restaurantData } = useContext(RestaurantContext);
+	const { restaurantData, showCards } = useContext(RestaurantContext);
 	
 	/* Set the object styles for the cards */
 	const style = useStyle();
 
 	return (
 		<React.Fragment>
-			<Filter/>
-			{loading( restaurantData, style )}
+			{loading( restaurantData, style, showCards )}
 		</React.Fragment>
 	)
 };
