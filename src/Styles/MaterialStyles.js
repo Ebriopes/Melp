@@ -1,6 +1,6 @@
 import { makeStyles } from "@material-ui/core";
 
-const useStyle = makeStyles(() =>({
+const useStyle = makeStyles((theme) =>({
 	bkgPage: {
 		maskImage:	'linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0.3) 85%, rgba(0,0,0,0))',
 		objectFit:	'cover',
@@ -8,6 +8,24 @@ const useStyle = makeStyles(() =>({
 		zIndex:		'-1',
 		height:		'100vh',
 		width:		'100vw',
+	},
+	navBar: {
+		position:	'static',
+		color:		'coral',
+		boxShadow:	'none',
+		fontFamily:	'Lobster',
+		textShadow:	'0 0 8px #000',
+	},
+	navTitle: {
+		flexGrow: '1',
+		fontFamily: 'inherit',
+	},
+	navBtn: {
+		color: 'inherit',
+		fontFamily: 'inherit',
+		fontSize: 'larger',
+		textTransform: 'capitalize',
+		textShadow: 'inherit',
 	},
 	homeText: {
 		textShadow:	'0 0 8px #000',
@@ -25,22 +43,43 @@ const useStyle = makeStyles(() =>({
 		width:			'fit-content',
 		marginLeft:		'auto',
 		marginRight:	'5px',
-		backgroundColor:'coral',
+		backgroundColor:'beige',
+	},
+	filterBtn:{
+		backgroundColor:'inherit',
+		color:			'orangered',
 	},
 	cards:{
 		display:	'flex',
 		flexWrap:	'wrap',
 	},
-	btn:{
-		backgroundColor: 'inherit',
-	},
 	card: {
-		margin: '20px auto',
-		width: '300px',
-		height: '350px',
+		margin:	'20px auto',
+		width:	'300px',
+		padding:'0 10px',
 	},
-	cardHeader: {
-		paddingBottom: '0',
+	cardHeaderSub: {
+		display: 'flex',
+	},
+	cardHeaderTitle: {
+		height: '64px',
+	},
+	cardSubheader: {
+		marginLeft: 'auto',
+		marginRight: '10px',
+	},
+	cardContent: {
+		height: '72px',
+	},
+	expand: {
+		transform:	'rotate(0deg)',
+		marginLeft:	'auto',
+		transition:	theme.transitions.create( 'transform', {
+			duration:	theme.transitions.duration.shortest,
+		}),
+	},
+	expandOpen: {
+		transform: 'rotate(180deg)',
 	},
 }))
 
