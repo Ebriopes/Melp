@@ -3,8 +3,9 @@ import RestaurantService from '../Services/RestaurantService';
 
 export const RestaurantContext = createContext();
 
-const RestaurantContextProvider = (props) => {
-	const [ restaurantData, setRestaurantData ] = useState([]);
+const RestaurantContextProvider = ( props ) => {
+	const [ restaurantData, setRestaurantData ] = useState( [] );
+	const [ showCards,		setShowCards]		= useState( 10 )
 	const [ rating,			setRating ]			= useState( false );
 	const [ alpha,			setAlpha ]			= useState( false );
 
@@ -51,6 +52,8 @@ const RestaurantContextProvider = (props) => {
 				setRestaurantData,
 				sortAlpha,
 				sortRating,
+				showCards,
+				setShowCards,
 				}}>
 			{props.children}
 		</RestaurantContext.Provider>
