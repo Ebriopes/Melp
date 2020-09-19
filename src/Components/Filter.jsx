@@ -42,6 +42,7 @@ function Filter ( ) {
 				onClick={ handleToggle }
 				aria-controls={open ? 'menu-list-grow' : undefined}
 				aria-haspopup="true"
+				className={style.filterBtn}
 			>
 				Show: { showCards }
 			</Button>
