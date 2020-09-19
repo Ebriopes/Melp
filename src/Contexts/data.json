@@ -1,0 +1,1902 @@
+[
+    {
+        "address": {
+            "city": "Mérida Alfredotown",
+            "location": {
+                "lat": 19.440057053713137,
+                "lng": -99.12704709742486
+            },
+            "state": "Durango",
+            "street": "82247 Mariano Entrada"
+        },
+        "contact": {
+            "email": "Anita_Mata71@hotmail.com",
+            "phone": "534 814 204",
+            "site": "https://federico.com"
+        },
+        "id": "851f799f-0852-439e-b9b2-df92c43e7672",
+        "name": "Barajas, Bahena and Kano",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Mateofurt",
+            "location": {
+                "lat": 19.437904276994995,
+                "lng": -99.12865767750226
+            },
+            "state": "Hidalgo",
+            "street": "93725 Erick Arroyo"
+        },
+        "contact": {
+            "email": "Brandon_Vigil@hotmail.com",
+            "phone": "570 746 998",
+            "site": "http://graciela.com.mx"
+        },
+        "id": "4e17896d-a26f-44ae-a8a4-5fbd5cde79b0",
+        "name": "Hernández - Lira",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Chignahuapan María",
+            "location": {
+                "lat": 19.43607059103484,
+                "lng": -99.12978657319944
+            },
+            "state": "Sinaloa",
+            "street": "5518 Monserrat Explanada"
+        },
+        "contact": {
+            "email": "Hugo.Casanova49@gmail.com",
+            "phone": "5866-337-812",
+            "site": "https://cristina.mx"
+        },
+        "id": "c0ffd058-e773-47f1-974b-42d41cb555bf",
+        "name": "Rendón - Elizondo",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Nezahualcóyotl Timoteo",
+            "location": {
+                "lat": 19.442486911665654,
+                "lng": -99.12383325991955
+            },
+            "state": "Coahuila",
+            "street": "79224 Mariano Travesía"
+        },
+        "contact": {
+            "email": "Carlota31@hotmail.com",
+            "phone": "5532-129-406",
+            "site": "https://pedro.gob.mx"
+        },
+        "id": "c29082c4-4352-4517-9b4b-c45f86fc1830",
+        "name": "Nájera - Chávez",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Marco Antonioland",
+            "location": {
+                "lat": 19.43349766301504,
+                "lng": -99.12851350657212
+            },
+            "state": "Colima",
+            "street": "039 Susana Polígono"
+        },
+        "contact": {
+            "email": "RosaMara_Figueroa@corpfolder.com",
+            "phone": "559.867.074",
+            "site": "https://elías.org"
+        },
+        "id": "2b8f5a44-1e8b-44ec-9b25-0edc5b64b7e6",
+        "name": "Hurtado, Rolón and Segovia",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Nevárezfort",
+            "location": {
+                "lat": 19.434704225487547,
+                "lng": -99.12638178153931
+            },
+            "state": "Michoacan",
+            "street": "14476 Delgadillo Partida"
+        },
+        "contact": {
+            "email": "Yamileth_Lugo28@corpfolder.com",
+            "phone": "571.744.718",
+            "site": "https://octavio.org"
+        },
+        "id": "ddb77425-2c3f-435c-8391-021b40010b0d",
+        "name": "Serrato Hermanos",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Nuevo Laredo Alejandrahaven",
+            "location": {
+                "lat": 19.441487824321264,
+                "lng": -99.12748993185849
+            },
+            "state": "San Luis Potosí",
+            "street": "563 Verduzco Vía Pública"
+        },
+        "contact": {
+            "email": "Carolina_Merino@nearbpo.com",
+            "phone": "584212054",
+            "site": "https://homero.com"
+        },
+        "id": "7b845a5f-94d4-4d52-bbb7-838839a180d6",
+        "name": "Saiz, Aponte and Muñoz",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Querétaro Saratown",
+            "location": {
+                "lat": 19.4416814748901,
+                "lng": -99.12657324380974
+            },
+            "state": "Oaxaca",
+            "street": "3041 Gael Torrente"
+        },
+        "contact": {
+            "email": "Luz_Sevilla@gmail.com",
+            "phone": "5178-668-409",
+            "site": "https://elizabeth.gob.mx"
+        },
+        "id": "030eaf75-da6e-4748-9727-f2704f831498",
+        "name": "Niño - Negrete",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Monterrey Dulce María",
+            "location": {
+                "lat": 19.440701969312975,
+                "lng": -99.12601493396133
+            },
+            "state": "Querétaro",
+            "street": "59897 Esquivel Aldea"
+        },
+        "contact": {
+            "email": "Brandon_Quiros@gmail.com",
+            "phone": "560 092 151",
+            "site": "http://débora.gob.mx"
+        },
+        "id": "1ce4a7f8-ff21-4450-9107-f4f952f39f99",
+        "name": "Kortajarena - Rangel",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Puerto Vallarta Dorotea",
+            "location": {
+                "lat": 19.436925777914475,
+                "lng": -99.13156075135142
+            },
+            "state": "Baja California Sur",
+            "street": "1736 Adela Urbanización"
+        },
+        "contact": {
+            "email": "Jazmin_Santiago7@yahoo.com",
+            "phone": "508272671",
+            "site": "http://miguel.com.mx"
+        },
+        "id": "9f98fad3-ecd6-421b-ba8c-2bd63340473d",
+        "name": "Macías S.L.",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Campeche Mercedes",
+            "location": {
+                "lat": 19.434988822590565,
+                "lng": -99.12630734779674
+            },
+            "state": "Guanajuato",
+            "street": "9061 Fernando Puente"
+        },
+        "contact": {
+            "email": "Ximena_Domnquez62@yahoo.com",
+            "phone": "531.757.355",
+            "site": "https://alejandra.com.mx"
+        },
+        "id": "38c965f9-74b0-4d8e-9cc2-2e457a1ebb83",
+        "name": "Arreola Hermanos",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Campeche Daniela",
+            "location": {
+                "lat": 19.434132032294766,
+                "lng": -99.13262356083642
+            },
+            "state": "Quintana Roo",
+            "street": "7229 Villarreal Gran Subida"
+        },
+        "contact": {
+            "email": "Brandon34@gmail.com",
+            "phone": "5191-333-084",
+            "site": "https://josé antonio.mx"
+        },
+        "id": "4501fb34-eefe-4f63-90c9-a9a1272df71d",
+        "name": "Gallardo - Angulo",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Rubénchester",
+            "location": {
+                "lat": 19.442393166493165,
+                "lng": -99.12657698284404
+            },
+            "state": "Tabasco",
+            "street": "38836 Emilio Partida"
+        },
+        "contact": {
+            "email": "JuanPablo.Cervntez@nearbpo.com",
+            "phone": "501 812 092",
+            "site": "https://martín.info"
+        },
+        "id": "d04fd5aa-4a56-43a6-91c9-35edaaadadc9",
+        "name": "Calvillo S.L.",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Tetela de Ocampo Silviafurt",
+            "location": {
+                "lat": 19.434869863060776,
+                "lng": -99.12808952204918
+            },
+            "state": "Colima",
+            "street": "5588 Leticia Torrente"
+        },
+        "contact": {
+            "email": "Lizbeth.Laboy@hotmail.com",
+            "phone": "508.505.560",
+            "site": "http://marco antonio.org"
+        },
+        "id": "a850ff07-516e-44e4-acd7-26fa0c12f4fc",
+        "name": "Palomo - Cardona",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Celaya Carlos",
+            "location": {
+                "lat": 19.440554355539387,
+                "lng": -99.12680347446155
+            },
+            "state": "Puebla",
+            "street": "7124 Granado Parcela"
+        },
+        "contact": {
+            "email": "Benjamn.Arenas27@yahoo.com",
+            "phone": "572.204.703",
+            "site": "http://dolores.org"
+        },
+        "id": "7173d827-3308-46d8-9b9e-86306ec64f78",
+        "name": "Carreón e Hijos",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "León Césarland",
+            "location": {
+                "lat": 19.438892040900427,
+                "lng": -99.13033427038731
+            },
+            "state": "Guerrero",
+            "street": "05203 Martín Lado"
+        },
+        "contact": {
+            "email": "Yaretzi_Saldivar28@yahoo.com",
+            "phone": "573.429.070",
+            "site": "https://emmanuel.com.mx"
+        },
+        "id": "d6782cfc-29ef-4241-985b-0a6ff6cf4c64",
+        "name": "Munguía S.L.",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Paolabury",
+            "location": {
+                "lat": 19.439351178762045,
+                "lng": -99.13306612705149
+            },
+            "state": "Michoacan",
+            "street": "81414 Luz Ferrocarril"
+        },
+        "contact": {
+            "email": "Jimena25@hotmail.com",
+            "phone": "5087-469-378",
+            "site": "http://ariadna.com.mx"
+        },
+        "id": "dd56e1e9-bd67-41cd-baac-a8f9f47ad5c8",
+        "name": "Fuentes, Porras and Barajas",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Irapuato Carolina",
+            "location": {
+                "lat": 19.44271475041798,
+                "lng": -99.12725416936946
+            },
+            "state": "Jalisco",
+            "street": "7630 Collado Huerta"
+        },
+        "contact": {
+            "email": "Amalia27@gmail.com",
+            "phone": "593 520 541",
+            "site": "https://miranda.mx"
+        },
+        "id": "ac3bafbe-ea67-47cb-af99-63d945f71bf5",
+        "name": "Ledesma, Vélez and Matías",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Tampico-Pánuco Mercedes",
+            "location": {
+                "lat": 19.435311811282773,
+                "lng": -99.13091740433163
+            },
+            "state": "Guerrero",
+            "street": "0785 José Luis Mercado"
+        },
+        "contact": {
+            "email": "JosEduardo_Narvez@nearbpo.com",
+            "phone": "5177-114-746",
+            "site": "https://josé luis.com.mx"
+        },
+        "id": "3e26a92c-defb-4475-8c23-450750556fb9",
+        "name": "Galarza, Griego and Orozco",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "La Laguna Ana Maríamouth",
+            "location": {
+                "lat": 19.433433875076478,
+                "lng": -99.13044725382271
+            },
+            "state": "Tabasco",
+            "street": "830 Valentín Colonia"
+        },
+        "contact": {
+            "email": "Patricio.Alonso52@gmail.com",
+            "phone": "5234-475-063",
+            "site": "https://iker.org"
+        },
+        "id": "6b7cd221-7859-4ece-8ed6-fd79283f0e65",
+        "name": "Hurtado, Armijo and Soto",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Pilarshire",
+            "location": {
+                "lat": 19.439240182675892,
+                "lng": -99.13319044094335
+            },
+            "state": "Nuevo León",
+            "street": "237 Regina Jardines"
+        },
+        "contact": {
+            "email": "Vanessa_Quinterodelacruz84@hotmail.com",
+            "phone": "5783-052-043",
+            "site": "http://abraham.com.mx"
+        },
+        "id": "d7888ed4-52f0-4be8-a210-f0d28ce0e565",
+        "name": "Paredes - Montero",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Carrasquillobury",
+            "location": {
+                "lat": 19.4332403037143,
+                "lng": -99.13229423638235
+            },
+            "state": "Yucatán",
+            "street": "019 Aragón Urbanización"
+        },
+        "contact": {
+            "email": "Jernimo_Armas@nearbpo.com",
+            "phone": "588078464",
+            "site": "https://ignacio.mx"
+        },
+        "id": "e6c4bf95-dba4-44b5-af90-b0ab7214146e",
+        "name": "Zavala - Chavarría",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Mérida Emilio",
+            "location": {
+                "lat": 19.439150270929566,
+                "lng": -99.12413153740846
+            },
+            "state": "Guerrero",
+            "street": "0658 Espino Conjunto"
+        },
+        "contact": {
+            "email": "Josefina_Cano@corpfolder.com",
+            "phone": "554 352 295",
+            "site": "https://gabriel.com.mx"
+        },
+        "id": "1d7e6cac-013e-404b-8d93-19d838ef30e1",
+        "name": "Padilla, Mata and Posada",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Sofiaville",
+            "location": {
+                "lat": 19.434062623980463,
+                "lng": -99.12380258213298
+            },
+            "state": "Durango",
+            "street": "2179 José Plaza"
+        },
+        "contact": {
+            "email": "Carla.Ramn81@corpfolder.com",
+            "phone": "5572-745-754",
+            "site": "http://eduardo.com"
+        },
+        "id": "811fa2fc-f29c-4152-a821-7c2a67ab5d21",
+        "name": "Gallegos, Anguiano and Jurado",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Tetela de Ocampo Ester",
+            "location": {
+                "lat": 19.43416304360424,
+                "lng": -99.13069784346072
+            },
+            "state": "Yucatán",
+            "street": "166 Gaona Ferrocarril"
+        },
+        "contact": {
+            "email": "FernandoJavier.Batista@nearbpo.com",
+            "phone": "576.091.302",
+            "site": "http://maría cristina.org"
+        },
+        "id": "6e658154-be6f-409c-9c38-b53cc38c2705",
+        "name": "Figueroa e Hijos",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Orizaba Nataliahaven",
+            "location": {
+                "lat": 19.442036614777063,
+                "lng": -99.13275606825518
+            },
+            "state": "Estado de México",
+            "street": "684 Barrientos Monte"
+        },
+        "contact": {
+            "email": "Jorge.Carrion@gmail.com",
+            "phone": "551 482 751",
+            "site": "http://pedro.info"
+        },
+        "id": "40424cd9-a4ff-466f-bea9-51cacb2dd2d5",
+        "name": "Cruz, Korta hernandez and Yáñez",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Cancún Yaretzi",
+            "location": {
+                "lat": 19.43380997549324,
+                "lng": -99.12934457901667
+            },
+            "state": "Durango",
+            "street": "220 Ángel Gabriel Solar"
+        },
+        "contact": {
+            "email": "Valentina_Gracia59@nearbpo.com",
+            "phone": "573.342.065",
+            "site": "http://brayan.com"
+        },
+        "id": "ed23040e-6d68-4211-b31c-62e2f36d120a",
+        "name": "Casanova - Jaramillo",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Guardadoview",
+            "location": {
+                "lat": 19.441974594328094,
+                "lng": -99.13210572285148
+            },
+            "state": "Chihuahua",
+            "street": "28658 José Antonio Aldea"
+        },
+        "contact": {
+            "email": "Silvia20@hotmail.com",
+            "phone": "592.612.849",
+            "site": "https://claudia.info"
+        },
+        "id": "8e086874-60ff-44d5-a327-e4bccf3a90ed",
+        "name": "Moya - Cepeda",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Tlalnepantla Cristobal",
+            "location": {
+                "lat": 19.439235495534266,
+                "lng": -99.12893260113465
+            },
+            "state": "Baja California Sur",
+            "street": "358 María Soledad Arrabal"
+        },
+        "contact": {
+            "email": "MaraLuisa_Amador@nearbpo.com",
+            "phone": "555 572 993",
+            "site": "http://rubén.info"
+        },
+        "id": "5675b76e-738a-4f6f-9adc-2a1b708b67fc",
+        "name": "Yanes S.A.",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Tula Adánville",
+            "location": {
+                "lat": 19.441598231213174,
+                "lng": -99.12635208666127
+            },
+            "state": "Chihuahua",
+            "street": "821 Lorena Ramal"
+        },
+        "contact": {
+            "email": "Miguelngel4@corpfolder.com",
+            "phone": "511.280.590",
+            "site": "https://francisco.org"
+        },
+        "id": "c4965d5d-4c08-4806-8cfc-77099379ce4e",
+        "name": "Rael, Mota and Cintrón",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Zaragozafort",
+            "location": {
+                "lat": 19.43710945808143,
+                "lng": -99.12925726175577
+            },
+            "state": "Morelos",
+            "street": "8772 Marrero Huerta"
+        },
+        "contact": {
+            "email": "XimenaGuadalupe.Mireles@nearbpo.com",
+            "phone": "5382-692-003",
+            "site": "https://erick.mx"
+        },
+        "id": "da7c9bad-6036-4a3a-8873-81dfaa585b26",
+        "name": "Hinojosa Hermanos",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Terrazasside",
+            "location": {
+                "lat": 19.436545609192,
+                "lng": -99.12559145733051
+            },
+            "state": "Baja California Sur",
+            "street": "928 Benavídez Municipio"
+        },
+        "contact": {
+            "email": "Estela.Quinta80@hotmail.com",
+            "phone": "590.101.852",
+            "site": "http://cecilia.com.mx"
+        },
+        "id": "71795f1c-4ca0-4ec7-b925-5b906711329b",
+        "name": "Zamudio S.L.",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "León Kimberlyland",
+            "location": {
+                "lat": 19.440250257340267,
+                "lng": -99.129177464601
+            },
+            "state": "Aguascalientes",
+            "street": "4820 Gurule Rambla"
+        },
+        "contact": {
+            "email": "Eva88@corpfolder.com",
+            "phone": "5756-043-582",
+            "site": "http://melissa.mx"
+        },
+        "id": "556091ed-3047-4f07-a2e3-1abbb37ff1bd",
+        "name": "Kamat S.L.",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Ríoshaven",
+            "location": {
+                "lat": 19.436266291055833,
+                "lng": -99.13294280296459
+            },
+            "state": "Guanajuato",
+            "street": "481 Raquel Huerta"
+        },
+        "contact": {
+            "email": "Valeria.Espinal@yahoo.com",
+            "phone": "560 091 544",
+            "site": "http://esteban.info"
+        },
+        "id": "87b35453-f063-461a-b17b-9173f7f09805",
+        "name": "Arevalo - Reséndez",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Armijomouth",
+            "location": {
+                "lat": 19.434803135355942,
+                "lng": -99.12484891342733
+            },
+            "state": "Tabasco",
+            "street": "705 Gloria Avenida"
+        },
+        "contact": {
+            "email": "Eduardo_Montes75@nearbpo.com",
+            "phone": "506.416.955",
+            "site": "http://cristobal.mx"
+        },
+        "id": "8d567e51-e73c-47b3-ad15-9ca14c32da14",
+        "name": "Ñañez S.L.",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Coatzacoalcos Nicolásstad",
+            "location": {
+                "lat": 19.439665032625673,
+                "lng": -99.13242158991088
+            },
+            "state": "Baja California Norte",
+            "street": "4152 Karem Mercado"
+        },
+        "contact": {
+            "email": "Melissa51@corpfolder.com",
+            "phone": "521.791.308",
+            "site": "https://eva.com.mx"
+        },
+        "id": "84314586-29fb-420f-95e5-f15fbe7a619c",
+        "name": "Mayorga S.L.",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Uruapan del Progreso Juan Pabloland",
+            "location": {
+                "lat": 19.433699568941265,
+                "lng": -99.13109211186448
+            },
+            "state": "Tabasco",
+            "street": "08030 Juan Manuel Torrente"
+        },
+        "contact": {
+            "email": "Alexa.Ortega@yahoo.com",
+            "phone": "545520700",
+            "site": "https://fernando.info"
+        },
+        "id": "1b413a3a-e894-4142-a954-37176f12003b",
+        "name": "Báez, Karan and Armijo",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Campeche Ramiroborough",
+            "location": {
+                "lat": 19.432912518063567,
+                "lng": -99.13120791786618
+            },
+            "state": "Puebla",
+            "street": "3239 Apodaca Parque"
+        },
+        "contact": {
+            "email": "JosEmilio31@corpfolder.com",
+            "phone": "5250-478-668",
+            "site": "http://victor manuel.gob.mx"
+        },
+        "id": "15c7fea0-89e8-4539-8632-46a619ef4ce9",
+        "name": "García e Hijos",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Octavioville",
+            "location": {
+                "lat": 19.434565724053428,
+                "lng": -99.13242484646419
+            },
+            "state": "Chiapas",
+            "street": "37097 Florencia Senda"
+        },
+        "contact": {
+            "email": "Luis.Anaya25@corpfolder.com",
+            "phone": "581 978 966",
+            "site": "http://bernardo.mx"
+        },
+        "id": "073aa6dc-3363-417c-b3f4-eba74fb75de8",
+        "name": "Palacios, Moreno and Bustamante",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Zitacuaro Monserratchester",
+            "location": {
+                "lat": 19.434522272423383,
+                "lng": -99.12684009064955
+            },
+            "state": "Sinaloa",
+            "street": "31916 Daniel Glorieta"
+        },
+        "contact": {
+            "email": "Mayte.Camacho@nearbpo.com",
+            "phone": "5778-085-952",
+            "site": "http://paola.gob.mx"
+        },
+        "id": "36d43234-edd6-4680-8054-f2f6e4e4ab47",
+        "name": "Polanco - Rodríguez",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Juanaborough",
+            "location": {
+                "lat": 19.43695412010933,
+                "lng": -99.13007207327325
+            },
+            "state": "Baja California Sur",
+            "street": "5983 Tapia Lado"
+        },
+        "contact": {
+            "email": "MaradeJess32@gmail.com",
+            "phone": "558.191.752",
+            "site": "https://mario.org"
+        },
+        "id": "7b97ebd0-6c61-43b1-80c6-bdc88846c727",
+        "name": "Aragón, Robles and Echevarría",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Durango Elizabethchester",
+            "location": {
+                "lat": 19.435310294579722,
+                "lng": -99.12920438299224
+            },
+            "state": "Campeche",
+            "street": "65562 Olivas Rincón"
+        },
+        "contact": {
+            "email": "Bernardo.Yebra48@hotmail.com",
+            "phone": "538173475",
+            "site": "http://sofia.com"
+        },
+        "id": "58c0549f-4b2c-43d4-af8d-d4641ffa9f66",
+        "name": "Zabaleta S.A.",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Chetumal Liliafort",
+            "location": {
+                "lat": 19.440702997339432,
+                "lng": -99.12748068650754
+            },
+            "state": "Tlaxcala",
+            "street": "96024 Ana Sofía Polígono"
+        },
+        "contact": {
+            "email": "Eva.Ferrer47@hotmail.com",
+            "phone": "568360596",
+            "site": "https://homero.gob.mx"
+        },
+        "id": "5dccd552-2941-485c-a80d-8a769f4df5c5",
+        "name": "Pelayo, Puente and Echevarría",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Nicolásview",
+            "location": {
+                "lat": 19.43928626240744,
+                "lng": -99.13152403518593
+            },
+            "state": "Durango",
+            "street": "795 Gaytán Colonia"
+        },
+        "contact": {
+            "email": "Eva_Faras11@corpfolder.com",
+            "phone": "566384264",
+            "site": "https://jaime.com.mx"
+        },
+        "id": "6308a2f2-6719-4ff6-818e-4e62f41a5296",
+        "name": "Benítez - Carbajal",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Isabelbury",
+            "location": {
+                "lat": 19.438667685892906,
+                "lng": -99.12583769045106
+            },
+            "state": "Oaxaca",
+            "street": "66998 Tejada Colegio"
+        },
+        "contact": {
+            "email": "Victoria.Valadez@corpfolder.com",
+            "phone": "567 287 108",
+            "site": "https://estefanía.mx"
+        },
+        "id": "72cc52c1-7aa5-4098-a391-5a713e2d9781",
+        "name": "Lozada, Chávez and Guerrero",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Francisco Javierland",
+            "location": {
+                "lat": 19.433213549524552,
+                "lng": -99.13172434009414
+            },
+            "state": "Baja California Sur",
+            "street": "6236 Axel Masía"
+        },
+        "contact": {
+            "email": "Julia_Chavarra@nearbpo.com",
+            "phone": "565 772 068",
+            "site": "http://sofia.org"
+        },
+        "id": "601c7236-e03c-4ba1-beb5-38fbc09108f9",
+        "name": "Mesa e Hijos",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Rochaport",
+            "location": {
+                "lat": 19.43472436811822,
+                "lng": -99.12411203046598
+            },
+            "state": "Veracruz",
+            "street": "626 Adriana Ramal"
+        },
+        "contact": {
+            "email": "Emilio.Kortahernandez@nearbpo.com",
+            "phone": "500 103 302",
+            "site": "https://abraham.com.mx"
+        },
+        "id": "3e21e0c4-3f89-42fb-8676-8350b95883e2",
+        "name": "Muñoz, Armendáriz and Moya",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Delgadilloshire",
+            "location": {
+                "lat": 19.434993410241333,
+                "lng": -99.13172327674961
+            },
+            "state": "Michoacan",
+            "street": "73621 Gloria Colegio"
+        },
+        "contact": {
+            "email": "JosLuis.Valds86@yahoo.com",
+            "phone": "5325-988-654",
+            "site": "http://cristian.mx"
+        },
+        "id": "8b8af894-bc42-4664-b08c-6cf4ef28081f",
+        "name": "Delgadillo - Escobar",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Kortajarenaside",
+            "location": {
+                "lat": 19.434472053968822,
+                "lng": -99.13177862952965
+            },
+            "state": "Quintana Roo",
+            "street": "396 Abreu Bloque"
+        },
+        "contact": {
+            "email": "Cecilia_Zabaleta76@nearbpo.com",
+            "phone": "566.689.802",
+            "site": "http://abigail.mx"
+        },
+        "id": "0b9447e8-6253-4337-b9a0-d6573149fde0",
+        "name": "Palomino - Vargas",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Valle de México Juanborough",
+            "location": {
+                "lat": 19.435657646344517,
+                "lng": -99.12528320019402
+            },
+            "state": "Tlaxcala",
+            "street": "9775 Amaya Cuesta"
+        },
+        "contact": {
+            "email": "Ramn_Campos@nearbpo.com",
+            "phone": "534 642 223",
+            "site": "https://alfredo.gob.mx"
+        },
+        "id": "cc9c245d-8b02-44c3-868e-90a3149edd5b",
+        "name": "Vallejo, Jiménez and Jaimes",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Vallechester",
+            "location": {
+                "lat": 19.437348595278344,
+                "lng": -99.12789598220063
+            },
+            "state": "Quintana Roo",
+            "street": "41601 Lucia Manzana"
+        },
+        "contact": {
+            "email": "Abril.Yez@yahoo.com",
+            "phone": "526.705.438",
+            "site": "http://gloria.gob.mx"
+        },
+        "id": "b6c3a6d0-4082-4353-926a-b903132b29f4",
+        "name": "Ramón Hermanos",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Becerraport",
+            "location": {
+                "lat": 19.439706773804975,
+                "lng": -99.1294421685118
+            },
+            "state": "Sonora",
+            "street": "65816 Sergio Parque"
+        },
+        "contact": {
+            "email": "Pablo_Alicea@yahoo.com",
+            "phone": "523671866",
+            "site": "https://juan.gob.mx"
+        },
+        "id": "32084e1d-41b9-4dc8-9b8a-83b5003302c1",
+        "name": "Sáenz - Romo",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Ángel Gabrielfurt",
+            "location": {
+                "lat": 19.43285464782548,
+                "lng": -99.13344355437242
+            },
+            "state": "Chiapas",
+            "street": "919 Salvador Colonia"
+        },
+        "contact": {
+            "email": "Daniela_Castillo26@yahoo.com",
+            "phone": "565166901",
+            "site": "https://matías.gob.mx"
+        },
+        "id": "5b04ad6d-54c1-419c-b8cd-69090fee4e76",
+        "name": "Ramos S.L.",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Los Mochis Carlachester",
+            "location": {
+                "lat": 19.43730960169156,
+                "lng": -99.13168673798943
+            },
+            "state": "Jalisco",
+            "street": "18089 Ramírez Partida"
+        },
+        "contact": {
+            "email": "Victoria14@hotmail.com",
+            "phone": "5359-320-036",
+            "site": "https://camila.com.mx"
+        },
+        "id": "fdc12e77-af11-496a-846b-94068dcded56",
+        "name": "Aragón, Herrera and Cortez",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Reynosa-Río Bravo Sofia",
+            "location": {
+                "lat": 19.442636402745737,
+                "lng": -99.12821944947855
+            },
+            "state": "Colima",
+            "street": "18190 Villagómez Ronda"
+        },
+        "contact": {
+            "email": "Armando82@yahoo.com",
+            "phone": "515577461",
+            "site": "https://carlos.mx"
+        },
+        "id": "39292d20-d201-4f0f-91a2-58e0f38fb2a2",
+        "name": "Carrillo - Ozuna",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Ixtapaluca María de Jesúsmouth",
+            "location": {
+                "lat": 19.438703053498646,
+                "lng": -99.12665946725326
+            },
+            "state": "Veracruz",
+            "street": "225 Cortés Masía"
+        },
+        "contact": {
+            "email": "Alan.Escobar@corpfolder.com",
+            "phone": "5191-038-970",
+            "site": "https://rosa maría.mx"
+        },
+        "id": "84572f5a-ea3d-4800-930c-5799a897b06c",
+        "name": "Khalid - Cortés",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "La Paz Lucasbury",
+            "location": {
+                "lat": 19.435477296009665,
+                "lng": -99.1257455545481
+            },
+            "state": "Jalisco",
+            "street": "808 Noriega Pasaje"
+        },
+        "contact": {
+            "email": "Isaac86@gmail.com",
+            "phone": "567057696",
+            "site": "https://julio césar.gob.mx"
+        },
+        "id": "3765054a-c706-4dcd-8424-aa8db4e5a4bd",
+        "name": "Casárez S.L.",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Torreón Tadeochester",
+            "location": {
+                "lat": 19.44128511370207,
+                "lng": -99.13085499493208
+            },
+            "state": "Veracruz",
+            "street": "70658 Arredondo Extrarradio"
+        },
+        "contact": {
+            "email": "Elisa.Orozco1@gmail.com",
+            "phone": "577 596 369",
+            "site": "https://erick.org"
+        },
+        "id": "beef488c-7f32-4a35-8469-89f5c6277972",
+        "name": "Cordero, Chapa and Lomeli",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Comitán de Dominguez Gregorio",
+            "location": {
+                "lat": 19.44030162894447,
+                "lng": -99.12623584907071
+            },
+            "state": "Jalisco",
+            "street": "0112 Jaime Apartamento"
+        },
+        "contact": {
+            "email": "scar_Olivo@yahoo.com",
+            "phone": "591 730 248",
+            "site": "https://raúl.org"
+        },
+        "id": "fe82f695-e437-4f42-9a69-d3a451c4a1d0",
+        "name": "Jaramillo - Narváez",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Carlahaven",
+            "location": {
+                "lat": 19.433136410376065,
+                "lng": -99.1239206144939
+            },
+            "state": "Hidalgo",
+            "street": "7383 Hinojosa Huerta"
+        },
+        "contact": {
+            "email": "Adn.valos@corpfolder.com",
+            "phone": "562 179 920",
+            "site": "http://luz.info"
+        },
+        "id": "b464014b-44ca-43e3-ba27-7477c8af2a53",
+        "name": "Carrero Hermanos",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Lozanoshire",
+            "location": {
+                "lat": 19.43451064586221,
+                "lng": -99.133588671354
+            },
+            "state": "Chiapas",
+            "street": "4279 Tadeo Parcela"
+        },
+        "contact": {
+            "email": "DulceMara98@nearbpo.com",
+            "phone": "5452-478-262",
+            "site": "https://maría teresa.org"
+        },
+        "id": "8e5f2c9c-7a25-4cc0-a4fa-306c1a6e2d91",
+        "name": "Sedillo - Márquez",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Roybalfort",
+            "location": {
+                "lat": 19.441412382980815,
+                "lng": -99.12854567258887
+            },
+            "state": "Zacatecas",
+            "street": "6347 Reina Salida"
+        },
+        "contact": {
+            "email": "Toms.Sols@gmail.com",
+            "phone": "5578-929-369",
+            "site": "https://gonzalo.com"
+        },
+        "id": "83967700-00d9-4d8e-8b5d-dd72f4fba3e5",
+        "name": "Bueno, Crespo and Rodrígez",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Mazatlán Antoniamouth",
+            "location": {
+                "lat": 19.43913815100492,
+                "lng": -99.13319297571935
+            },
+            "state": "Morelos",
+            "street": "895 Xenia Prolongación"
+        },
+        "contact": {
+            "email": "XimenaGuadalupe.Alaniz@nearbpo.com",
+            "phone": "518 264 968",
+            "site": "https://soledad.gob.mx"
+        },
+        "id": "650156a1-081b-4760-b438-0cee445be58e",
+        "name": "Reyna S.A.",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Vicentechester",
+            "location": {
+                "lat": 19.436442445761532,
+                "lng": -99.12645814871917
+            },
+            "state": "Morelos",
+            "street": "119 Polanco Colegio"
+        },
+        "contact": {
+            "email": "Hugo.Casrez2@hotmail.com",
+            "phone": "5471-253-103",
+            "site": "http://víctor.info"
+        },
+        "id": "b2ca0188-62c0-4bba-b20c-62bc2d4ba192",
+        "name": "Rubio S.A.",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Piedras Negras Martaport",
+            "location": {
+                "lat": 19.43363496555994,
+                "lng": -99.13319198116696
+            },
+            "state": "Campeche",
+            "street": "16737 Garrido Rampa"
+        },
+        "contact": {
+            "email": "Anita_Crdova@gmail.com",
+            "phone": "574 635 517",
+            "site": "https://marta.com"
+        },
+        "id": "cb0e214f-b0e4-496a-8164-eac6105b2d35",
+        "name": "Valles, Tamez and Duarte",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Karantown",
+            "location": {
+                "lat": 19.441435397794013,
+                "lng": -99.13301142465126
+            },
+            "state": "Quintana Roo",
+            "street": "776 Burgos Plaza"
+        },
+        "contact": {
+            "email": "Dbora.Delgado66@gmail.com",
+            "phone": "5810-547-684",
+            "site": "http://maría guadalupe.com.mx"
+        },
+        "id": "b8b03b3d-4c06-4d91-b895-5d8dc85cbb2e",
+        "name": "Venegas S.L.",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Nicolásfurt",
+            "location": {
+                "lat": 19.440954518169637,
+                "lng": -99.12461699361482
+            },
+            "state": "Jalisco",
+            "street": "67576 Cabán Chalet"
+        },
+        "contact": {
+            "email": "Emilio29@corpfolder.com",
+            "phone": "510.186.181",
+            "site": "https://valeria.gob.mx"
+        },
+        "id": "9e71243d-3b46-45de-9f1f-019b1bfe6bac",
+        "name": "Romo, Olmos and Calderón",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Abrahamfurt",
+            "location": {
+                "lat": 19.43312006670796,
+                "lng": -99.12784928163316
+            },
+            "state": "Baja California Norte",
+            "street": "739 Ortiz Manzana"
+        },
+        "contact": {
+            "email": "Axel.Zavala60@hotmail.com",
+            "phone": "537 651 378",
+            "site": "https://alejandro.com.mx"
+        },
+        "id": "59cddeed-fbea-425f-8181-4bd1354b4dfe",
+        "name": "Arias S.L.",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Karanmouth",
+            "location": {
+                "lat": 19.440398337636616,
+                "lng": -99.13117377886351
+            },
+            "state": "Oaxaca",
+            "street": "684 Rolón Apartamento"
+        },
+        "contact": {
+            "email": "Lola32@nearbpo.com",
+            "phone": "500 100 614",
+            "site": "https://sebastian.com.mx"
+        },
+        "id": "39be48e9-ec92-4ce5-8c90-768dfe20fc37",
+        "name": "Almaraz, Narváez and Urías",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Tehuantepec-Salina Cruz Mauriciostad",
+            "location": {
+                "lat": 19.43288510828792,
+                "lng": -99.12643918261666
+            },
+            "state": "Hidalgo",
+            "street": "750 Alberto Escalinata"
+        },
+        "contact": {
+            "email": "Mara26@corpfolder.com",
+            "phone": "524.823.622",
+            "site": "https://ariadna.com.mx"
+        },
+        "id": "80537b08-6bae-444b-9564-98731e680f59",
+        "name": "Alaniz - Aponte",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Piedras Negras Jesúsberg",
+            "location": {
+                "lat": 19.436551286490175,
+                "lng": -99.13302328501631
+            },
+            "state": "Chiapas",
+            "street": "821 Agustín Quinta"
+        },
+        "contact": {
+            "email": "Regina35@yahoo.com",
+            "phone": "542 891 822",
+            "site": "https://eloisa.org"
+        },
+        "id": "714ce590-f302-4453-895b-aa2992c2fa2c",
+        "name": "Armendáriz S.A.",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Oaxaca Sara",
+            "location": {
+                "lat": 19.43502031041822,
+                "lng": -99.12721964455012
+            },
+            "state": "Aguascalientes",
+            "street": "440 Ceballos Huerta"
+        },
+        "contact": {
+            "email": "Mercedes_Lugo@hotmail.com",
+            "phone": "537 295 998",
+            "site": "http://roberto.gob.mx"
+        },
+        "id": "ecbdb52a-4263-4bf1-87fb-8d9d809ea6aa",
+        "name": "Soliz Hermanos",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Elizabethtown",
+            "location": {
+                "lat": 19.43495710521518,
+                "lng": -99.12735425265541
+            },
+            "state": "Durango",
+            "street": "4409 José Luis Rampa"
+        },
+        "contact": {
+            "email": "Emmanuel_Rosas56@nearbpo.com",
+            "phone": "545.851.405",
+            "site": "http://victor manuel.gob.mx"
+        },
+        "id": "596081be-67c8-4c47-8c56-e2611cd4fa32",
+        "name": "Olivo, Santana and Elizondo",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Zacatlan José Emilioside",
+            "location": {
+                "lat": 19.438416809852242,
+                "lng": -99.12759698559333
+            },
+            "state": "Guanajuato",
+            "street": "055 Julio Lugar"
+        },
+        "contact": {
+            "email": "Leticia.Hidalgo@nearbpo.com",
+            "phone": "528679468",
+            "site": "http://mariana.gob.mx"
+        },
+        "id": "8a5aefe2-8d0c-45b6-aab2-4da2769e10fa",
+        "name": "Vázquez, Espinal and Cervántez",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Guanajuato Tadeoview",
+            "location": {
+                "lat": 19.442273653541232,
+                "lng": -99.12935202119674
+            },
+            "state": "Estado de México",
+            "street": "675 Kamal Chalet"
+        },
+        "contact": {
+            "email": "Benjamn26@yahoo.com",
+            "phone": "518272168",
+            "site": "http://ximena.gob.mx"
+        },
+        "id": "c9186202-30a4-48e7-b20b-c56d733fa76a",
+        "name": "Viera S.L.",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Coronadoview",
+            "location": {
+                "lat": 19.43949620743562,
+                "lng": -99.12644308705151
+            },
+            "state": "Zacatecas",
+            "street": "5702 Yamileth Terrenos"
+        },
+        "contact": {
+            "email": "Gerardo_Ozuna32@yahoo.com",
+            "phone": "599 747 935",
+            "site": "https://gustavo.org"
+        },
+        "id": "32b74fb4-1911-4db9-9646-f5ce4663ff1c",
+        "name": "Alicea - Castañeda",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Ocotlán Maricarmenstad",
+            "location": {
+                "lat": 19.436839996763045,
+                "lng": -99.1278302262401
+            },
+            "state": "Tabasco",
+            "street": "0302 Águilar Terrenos"
+        },
+        "contact": {
+            "email": "Kevin.Longoria68@nearbpo.com",
+            "phone": "568061069",
+            "site": "http://julia.org"
+        },
+        "id": "e5f21255-2dde-469e-bff8-4ea81d6fca27",
+        "name": "Medrano - Chavarría",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Cuernavaca Aliciachester",
+            "location": {
+                "lat": 19.43531675264054,
+                "lng": -99.1330388682153
+            },
+            "state": "Puebla",
+            "street": "9390 Manuel Sector"
+        },
+        "contact": {
+            "email": "Monserrat.Lozano77@corpfolder.com",
+            "phone": "588438707",
+            "site": "https://juan pablo.com"
+        },
+        "id": "3b84c87a-1cf9-40e8-81ff-19669240ce9b",
+        "name": "Naranjo, Galarza and Águilar",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Saizside",
+            "location": {
+                "lat": 19.434062387207995,
+                "lng": -99.12900434744813
+            },
+            "state": "Querétaro",
+            "street": "8465 Jorge Luis Aldea"
+        },
+        "contact": {
+            "email": "Eva_Guerra48@gmail.com",
+            "phone": "5487-547-323",
+            "site": "http://ivanna.info"
+        },
+        "id": "d3df42be-c6ff-43f6-8226-066140ab1b01",
+        "name": "Kanzaki e Hijos",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Arriagabury",
+            "location": {
+                "lat": 19.437130021830562,
+                "lng": -99.12858031381423
+            },
+            "state": "Veracruz",
+            "street": "00698 Vallejo Ferrocarril"
+        },
+        "contact": {
+            "email": "Camila.Castellanos@corpfolder.com",
+            "phone": "5344-687-599",
+            "site": "http://yolanda.info"
+        },
+        "id": "35b9efad-5168-419e-96bc-0535e5e5d2f9",
+        "name": "Villarreal - Gaytán",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Gonzaloborough",
+            "location": {
+                "lat": 19.440695563252557,
+                "lng": -99.13211590162281
+            },
+            "state": "Sinaloa",
+            "street": "7688 Puga Entrada"
+        },
+        "contact": {
+            "email": "Victoria.Lucero@corpfolder.com",
+            "phone": "573 413 844",
+            "site": "https://marco antonio.org"
+        },
+        "id": "9c6f0247-d128-4396-b80c-8f9648928ec0",
+        "name": "Salcedo Hermanos",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "José Luisstad",
+            "location": {
+                "lat": 19.43730705076876,
+                "lng": -99.12809111534887
+            },
+            "state": "Sinaloa",
+            "street": "30474 Montez Mercado"
+        },
+        "contact": {
+            "email": "Dolores.Mercado64@corpfolder.com",
+            "phone": "5528-685-947",
+            "site": "https://carlota.org"
+        },
+        "id": "937518f0-a27f-491e-8788-ae9be0c65b31",
+        "name": "Gonzales, Valladares and Espinal",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Tulancingo Zoe",
+            "location": {
+                "lat": 19.440962145564153,
+                "lng": -99.12570527286071
+            },
+            "state": "Tlaxcala",
+            "street": "9119 Lorenzo Riera"
+        },
+        "contact": {
+            "email": "Teresa_Miramontes@nearbpo.com",
+            "phone": "523.743.315",
+            "site": "https://javier.com"
+        },
+        "id": "534d5669-c0d4-4fe1-805e-7f836eb80e0f",
+        "name": "Zayas - Loya",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Ciudad Obregón Emmanuel",
+            "location": {
+                "lat": 19.439100216425032,
+                "lng": -99.12469917012646
+            },
+            "state": "Zacatecas",
+            "street": "93160 Xairo Belmonte Vía"
+        },
+        "contact": {
+            "email": "Gloria_Robledo73@nearbpo.com",
+            "phone": "509.051.989",
+            "site": "https://esteban.com.mx"
+        },
+        "id": "72bd30eb-192f-4f5a-bda2-bde3ae0844c2",
+        "name": "Huerta e Hijos",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Tlaxcala-Apizaco Juan Manuel",
+            "location": {
+                "lat": 19.43973481362267,
+                "lng": -99.13234928847558
+            },
+            "state": "Sinaloa",
+            "street": "19099 Isabel Bloque"
+        },
+        "contact": {
+            "email": "Teresa_Domnquez39@corpfolder.com",
+            "phone": "545.204.593",
+            "site": "http://diana.org"
+        },
+        "id": "5e238917-a1e1-408a-93d5-0c1bcb3361bc",
+        "name": "Carranza e Hijos",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Manuelaburgh",
+            "location": {
+                "lat": 19.43776849771897,
+                "lng": -99.12864865846734
+            },
+            "state": "Puebla",
+            "street": "5206 Juárez Salida"
+        },
+        "contact": {
+            "email": "Diego16@gmail.com",
+            "phone": "516.205.131",
+            "site": "http://josé eduardo.org"
+        },
+        "id": "4e20f081-3095-4918-88f8-9591991b017f",
+        "name": "Vélez - Maldonado",
+        "rating": 4
+    },
+    {
+        "address": {
+            "city": "Concepciónside",
+            "location": {
+                "lat": 19.441102819734258,
+                "lng": -99.12928943737911
+            },
+            "state": "Quintana Roo",
+            "street": "638 Sedillo Urbanización"
+        },
+        "contact": {
+            "email": "Mario_Arreola51@gmail.com",
+            "phone": "5917-337-221",
+            "site": "http://mariana.com"
+        },
+        "id": "74c9182c-9ec1-47cb-8271-50729ae7f95d",
+        "name": "Solís, Valles and Collado",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Coatzacoalcos Gonzalo",
+            "location": {
+                "lat": 19.43714950336889,
+                "lng": -99.12651042665158
+            },
+            "state": "Oaxaca",
+            "street": "319 Dolores Rampa"
+        },
+        "contact": {
+            "email": "LuisMiguel.Godnez83@yahoo.com",
+            "phone": "5616-561-563",
+            "site": "https://eloisa.com.mx"
+        },
+        "id": "19e1837a-c9ad-49d8-8d6d-7cb1d2ee0700",
+        "name": "Águilar - Matos",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Ojo de agua Luis Ángelport",
+            "location": {
+                "lat": 19.432932969746652,
+                "lng": -99.1312921006981
+            },
+            "state": "Campeche",
+            "street": "134 Hidalgo Avenida"
+        },
+        "contact": {
+            "email": "Luisngel.Gmez50@nearbpo.com",
+            "phone": "581 479 974",
+            "site": "http://esteban.com.mx"
+        },
+        "id": "6589e471-ae41-4e6b-83b8-9654d6fc71ea",
+        "name": "Peres, Meraz and Peña",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Ciudad de México Carlota",
+            "location": {
+                "lat": 19.43868243347668,
+                "lng": -99.12891139556922
+            },
+            "state": "Aguascalientes",
+            "street": "10411 Pagan Salida"
+        },
+        "contact": {
+            "email": "Isabela.Briones11@gmail.com",
+            "phone": "5495-151-485",
+            "site": "http://ximena.gob.mx"
+        },
+        "id": "58131b8b-1b93-495f-b7a1-0e2e1b93633d",
+        "name": "Meraz e Hijos",
+        "rating": 2
+    },
+    {
+        "address": {
+            "city": "Madridland",
+            "location": {
+                "lat": 19.433857279213154,
+                "lng": -99.12542737859569
+            },
+            "state": "Sonora",
+            "street": "780 Medina Terrenos"
+        },
+        "contact": {
+            "email": "Mario84@yahoo.com",
+            "phone": "5256-976-186",
+            "site": "https://fernando javier.com"
+        },
+        "id": "097f66dd-ca33-4f30-88e4-33193fcf8cda",
+        "name": "Briseño - Rodarte",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Tulancingo de Bravo Margarita",
+            "location": {
+                "lat": 19.43975847215672,
+                "lng": -99.12611983918154
+            },
+            "state": "Zacatecas",
+            "street": "375 Puente Puente"
+        },
+        "contact": {
+            "email": "Emilio_Abeyta@yahoo.com",
+            "phone": "539 404 967",
+            "site": "http://maría de jesús.com"
+        },
+        "id": "fcb9b113-49f5-4119-8016-c7357ac135fc",
+        "name": "Briones S.A.",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Julioview",
+            "location": {
+                "lat": 19.4338683815538,
+                "lng": -99.1265759170152
+            },
+            "state": "Baja California Norte",
+            "street": "69201 Dávila Edificio"
+        },
+        "contact": {
+            "email": "Teodoro_Zelaya@gmail.com",
+            "phone": "5932-627-483",
+            "site": "https://zoe.com"
+        },
+        "id": "0c91a515-2be1-4e8b-a4b0-be4f0ed1cce1",
+        "name": "Pedroza, Heredia and Lebrón",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Zacatlan Claudia",
+            "location": {
+                "lat": 19.44178271011031,
+                "lng": -99.12955183191725
+            },
+            "state": "Baja California Sur",
+            "street": "057 Meléndez Aldea"
+        },
+        "contact": {
+            "email": "Ivan_Delro32@gmail.com",
+            "phone": "555522401",
+            "site": "http://dulce maría.org"
+        },
+        "id": "7ef3ed97-ebd6-4114-b2c1-af664534df79",
+        "name": "Jáquez, Jimínez and Yami",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Zacatlan Berta",
+            "location": {
+                "lat": 19.43809311736888,
+                "lng": -99.13341109233944
+            },
+            "state": "Baja California Sur",
+            "street": "66678 Andrés Salida"
+        },
+        "contact": {
+            "email": "Norma40@corpfolder.com",
+            "phone": "552972577",
+            "site": "https://abigail.com"
+        },
+        "id": "3eb803d7-445a-43cd-9d08-2c3bd1c56148",
+        "name": "Esquivel S.L.",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Culiacán Cristianport",
+            "location": {
+                "lat": 19.441996720629284,
+                "lng": -99.1243064222698
+            },
+            "state": "Chihuahua",
+            "street": "2399 Esquibel Partida"
+        },
+        "contact": {
+            "email": "Patricia.Noriega75@yahoo.com",
+            "phone": "520.411.112",
+            "site": "http://josé antonio.com.mx"
+        },
+        "id": "24345eda-0451-4225-a6d0-17365f746afc",
+        "name": "Jaramillo - Flores",
+        "rating": 3
+    },
+    {
+        "address": {
+            "city": "Cancún Estefaníahaven",
+            "location": {
+                "lat": 19.442016627598097,
+                "lng": -99.13139965196409
+            },
+            "state": "Hidalgo",
+            "street": "69982 Luis Gabino Terrenos"
+        },
+        "contact": {
+            "email": "JosEmilio.Cotto69@corpfolder.com",
+            "phone": "5502-208-117",
+            "site": "https://ricardo.info"
+        },
+        "id": "1ce2e219-d0e5-4f88-85f9-c152485ec7ab",
+        "name": "Matos S.L.",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Guadalupeside",
+            "location": {
+                "lat": 19.441613945654133,
+                "lng": -99.1336614550933
+            },
+            "state": "Tamaulipas",
+            "street": "8758 Alondra Romina Parcela"
+        },
+        "contact": {
+            "email": "Soledad.Brito7@yahoo.com",
+            "phone": "500 281 343",
+            "site": "https://timoteo.gob.mx"
+        },
+        "id": "04e43341-64c0-4f66-822f-f2c0ef02e6bc",
+        "name": "Barela e Hijos",
+        "rating": 0
+    },
+    {
+        "address": {
+            "city": "Marco Antonioton",
+            "location": {
+                "lat": 19.44106340694987,
+                "lng": -99.1304676964673
+            },
+            "state": "Michoacan",
+            "street": "7676 Raquel Solar"
+        },
+        "contact": {
+            "email": "Rosalia.Estvez@nearbpo.com",
+            "phone": "590 666 046",
+            "site": "https://felipe.org"
+        },
+        "id": "f73cfbce-60b8-4e2c-9ec7-de8dbb5e0a49",
+        "name": "Palacios - Montez",
+        "rating": 1
+    },
+    {
+        "address": {
+            "city": "Franciscohaven",
+            "location": {
+                "lat": 19.442683820522397,
+                "lng": -99.12502459288842
+            },
+            "state": "Baja California Norte",
+            "street": "207 Chavarría Lado"
+        },
+        "contact": {
+            "email": "Irene_Rojas95@nearbpo.com",
+            "phone": "537 531 201",
+            "site": "http://josé eduardo.gob.mx"
+        },
+        "id": "edb50561-46f9-4541-9c04-8de82401cc13",
+        "name": "Pedraza - Niño",
+        "rating": 4
+    }
+]
