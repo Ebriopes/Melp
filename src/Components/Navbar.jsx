@@ -1,4 +1,6 @@
-import React from 'react';
+import React 	from 'react';
+import useStyle from '../Styles/MaterialStyles';
+
 import {
 	AppBar,
 	Button,
@@ -7,38 +9,18 @@ import {
 	Typography,
 } from '@material-ui/core';
 
-const useStyle = makeStyles( ( ) => ( {
-	appbar: {
-		position: 'static',
-		color: 'coral',
-		boxShadow: 'none',
-		fontFamily: 'Lobster',
-		textShadow: '0 0 8px #000',
-	},
-	title: {
-		flexGrow: '1',
-		fontFamily: 'inherit',
-	},
-	btn: {
-		color: 'inherit',
-		fontFamily: 'inherit',
-		fontSize: 'larger',
-		textTransform: 'capitalize',
-		textShadow: 'inherit',
-	},
-} ) );
-
 function Navbar () {
-	const classes = useStyle();
+
+	const style = useStyle();
 
 	return (
-		<AppBar className={ classes.appbar } color='transparent'>
+		<AppBar className={ style.navBar } color='transparent'>
 			<Toolbar>
-				<Typography className={classes.title} variant="h4"> 
+				<Typography className={style.navTitle} variant="h4"> 
 					Melp
 				</Typography>
-				<Button className={classes.btn}>home</Button>
-				<Button className={classes.btn}>map</Button>
+				<Button className={style.navBtn}>home</Button>
+				<Button className={style.navBtn}>map</Button>
 			</Toolbar>
 		</AppBar>
 	)
