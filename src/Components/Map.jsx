@@ -7,8 +7,7 @@ function Map ( { location } ) {
 	const { restaurantData } = useContext( RestaurantContext );
 	
 	const renderMap = () => {
-		const pins = restaurantData.slice( 0, 10 )
-			.map( ( restaurant, index ) => {
+		const pins = restaurantData.map( ( restaurant, index ) => {
 				const _address = restaurant.address
 				const textAddress = `${ _address.street }, ${ _address.city } ${ _address.state }`
 				const _location = _address.location
@@ -23,7 +22,7 @@ function Map ( { location } ) {
 			<GoogleMapReact
 				bootstrapURLKeys={ { key: 'AIzaSyCgh7VhcMzuVnFiEcSliGle_IvuODaBf0s' } }
 				defaultCenter={ location }
-				defaultZoom={15}
+				defaultZoom={16}
 			>
 				{ pins }
 			</GoogleMapReact>
