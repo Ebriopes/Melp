@@ -7,7 +7,7 @@ const useStyle = makeStyles((theme) =>({
 		position:	'absolute',
 		zIndex:		'-1',
 		height:		'100vh',
-		width:		'100vw',
+		width:		'100%',
 	},
 	navBar: {
 		position:	'static',
