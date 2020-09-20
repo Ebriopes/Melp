@@ -4,6 +4,7 @@ import Background	from './Components/Background';
 import Navbar		from './Components/Navbar';
 import Home			from './Views/Home';
 import Maps			from './Views/Maps';
+import useStyle		from './Styles/MaterialStyles'
 
 import {
 	BrowserRouter as Router,
