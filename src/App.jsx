@@ -4,7 +4,6 @@ import Background	from './Components/Background';
 import Navbar		from './Components/Navbar';
 import Home			from './Views/Home';
 import Maps			from './Views/Maps';
-import useStyle		from './Styles/MaterialStyles'
 
 import {
 	BrowserRouter as Router,
@@ -13,13 +12,12 @@ import {
 	Switch,
 } from 'react-router-dom';
 
-
 function App () {
-	return (
+	return (<>
+		<Navbar />
+		<Background />
 		<Router>
 			<RestaurantContextProvider>
-			<Navbar />
-			<Background />
 				<Switch>
 					<Route exact path='/Melp'>
 						<Redirect to='/Melp/home'/>
@@ -38,7 +36,7 @@ function App () {
 					</Route>
 				</Switch>
 			</RestaurantContextProvider>
-		</Router>
+		</Router></>
 	);
 };
 
