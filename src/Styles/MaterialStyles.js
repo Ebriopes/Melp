@@ -17,15 +17,17 @@ const useStyle = makeStyles((theme) =>({
 		textShadow:	'0 0 8px #000',
 	},
 	navTitle: {
-		flexGrow: '1',
-		fontFamily: 'inherit',
+		flexGrow:	'1',
+		fontFamily:	'inherit',
 	},
-	navBtn: {
-		color: 'inherit',
-		fontFamily: 'inherit',
-		fontSize: 'larger',
-		textTransform: 'capitalize',
-		textShadow: 'inherit',
+	navLink: {
+		color:			'inherit',
+		margin:			'0 10px',
+		fontSize:		'larger',
+		fontFamily:		'inherit',
+		textShadow:		'inherit',
+		textTransform:	'capitalize',
+		textDecoration: 'none',
 	},
 	homeText: {
 		textShadow:	'0 0 8px #000',
