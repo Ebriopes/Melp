@@ -1,16 +1,42 @@
-import React		from 'react';
-import Home			from './Views/Home';
-import Navbar		from './Components/Navbar';
-import Background	from './Components/Background';
 import RestaurantContextProvider from './Contexts/RestaurantContext';
+import React		from 'react';
+import Background	from './Components/Background';
+import Navbar		from './Components/Navbar';
+import Home			from './Views/Home';
+import Maps			from './Views/Maps';
+
+import {
+	BrowserRouter as Router,
+	Redirect,
+	Route,
+	Switch,
+} from 'react-router-dom';
+
 
 function App () {
 	return (
-		<RestaurantContextProvider>
-			<Background/>
+		<Router>
+			<Background />
 			<Navbar />
-			<Home />
-		</RestaurantContextProvider>
+
+			<RestaurantContextProvider>
+				<Switch>
+					<Route exact path='/'>
+						<Redirect to='home'/>
+					</Route>
+					<Route exact path='/home'>
+						<Home />
+					</Route>
+					<Route exact path='/maps'>
+						<Maps/>
+					</Route>
+					<Route path='*'>
+						<h1>404 page not found</h1>
+					</Route>
+				</Switch>
+			</RestaurantContextProvider>
+
+		</Router>
 	);
 };
 
