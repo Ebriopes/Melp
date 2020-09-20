@@ -1,6 +1,6 @@
+import React from 'react';
 import useStyle from '../Styles/MaterialStyles';
 import { NavLink } from 'react-router-dom';
-import React from 'react';
 
 import {
 	AppBar,
@@ -18,8 +18,8 @@ function Navbar () {
 				<Typography className={ style.navTitle } variant="h4">
 					Melp
 				</Typography>
-				<NavLink to='/home' activeStyle={ { color: 'orangered' } } className={ style.navLink }>home</NavLink>
-				<NavLink to='/maps' activeStyle={ { color: 'orangered' } } className={ style.navLink }>map</NavLink>
+				<NavLink to='/Melp/home' activeStyle={ { color: 'orangered' } } className={ style.navLink }>home</NavLink>
+				<NavLink to='/Melp/maps' activeStyle={ { color: 'orangered' } } className={ style.navLink }>map</NavLink>
 			</Toolbar>
 		</AppBar>
 	)

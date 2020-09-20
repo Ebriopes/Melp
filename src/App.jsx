@@ -16,18 +16,20 @@ import {
 function App () {
 	return (
 		<Router>
-			<Background />
-			<Navbar />
-
 			<RestaurantContextProvider>
+			<Navbar />
+			<Background />
 				<Switch>
-					<Route exact path='/'>
-						<Redirect to='home'/>
+					<Route exact path='/Melp'>
+						<Redirect to='/Melp/home'/>
 					</Route>
-					<Route exact path='/home'>
+					<Route exact path='/'>
+						<Redirect to='/Melp/home'/>
+					</Route>
+					<Route exact path='/Melp/home'>
 						<Home />
 					</Route>
-					<Route exact path='/maps'>
+					<Route exact path='/Melp/maps'>
 						<Maps/>
 					</Route>
 					<Route path='*'>
@@ -35,7 +37,6 @@ function App () {
 					</Route>
 				</Switch>
 			</RestaurantContextProvider>
-
 		</Router>
 	);
 };
