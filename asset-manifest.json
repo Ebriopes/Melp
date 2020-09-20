@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/Melp/static/js/main.c75f3737.chunk.js",
-    "main.js.map": "/Melp/static/js/main.c75f3737.chunk.js.map",
+    "main.js": "/Melp/static/js/main.428f7464.chunk.js",
+    "main.js.map": "/Melp/static/js/main.428f7464.chunk.js.map",
     "runtime-main.js": "/Melp/static/js/runtime-main.46bbd13e.js",
     "runtime-main.js.map": "/Melp/static/js/runtime-main.46bbd13e.js.map",
-    "static/js/2.e811d4e5.chunk.js": "/Melp/static/js/2.e811d4e5.chunk.js",
-    "static/js/2.e811d4e5.chunk.js.map": "/Melp/static/js/2.e811d4e5.chunk.js.map",
+    "static/js/2.3a8be19b.chunk.js": "/Melp/static/js/2.3a8be19b.chunk.js",
+    "static/js/2.3a8be19b.chunk.js.map": "/Melp/static/js/2.3a8be19b.chunk.js.map",
     "index.html": "/Melp/index.html",
-    "precache-manifest.1d2c819de99385861e2fe631d23cd7ad.js": "/Melp/precache-manifest.1d2c819de99385861e2fe631d23cd7ad.js",
+    "precache-manifest.1143051937d68f9a1ae9e02a2ed53cf7.js": "/Melp/precache-manifest.1143051937d68f9a1ae9e02a2ed53cf7.js",
     "service-worker.js": "/Melp/service-worker.js",
-    "static/js/2.e811d4e5.chunk.js.LICENSE.txt": "/Melp/static/js/2.e811d4e5.chunk.js.LICENSE.txt",
+    "static/js/2.3a8be19b.chunk.js.LICENSE.txt": "/Melp/static/js/2.3a8be19b.chunk.js.LICENSE.txt",
     "static/media/background.jpeg": "/Melp/static/media/background.c49abded.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.46bbd13e.js",
-    "static/js/2.e811d4e5.chunk.js",
-    "static/js/main.c75f3737.chunk.js"
+    "static/js/2.3a8be19b.chunk.js",
+    "static/js/main.428f7464.chunk.js"
   ]
 }
