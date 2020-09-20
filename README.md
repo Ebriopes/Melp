@@ -3,7 +3,7 @@
 
 ### Technologies
 - HTML
-- JavaScrit
+- JavaScript
 - React
 - Material-UI
 - Axios
