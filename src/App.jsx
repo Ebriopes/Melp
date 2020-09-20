@@ -12,12 +12,13 @@ import {
 	Switch,
 } from 'react-router-dom';
 
+
 function App () {
-	return (<>
-		<Navbar />
-		<Background />
+	return (
 		<Router>
 			<RestaurantContextProvider>
+				<Background />
+				<Navbar />
 				<Switch>
 					<Route exact path='/Melp'>
 						<Redirect to='/Melp/home'/>
@@ -36,7 +37,7 @@ function App () {
 					</Route>
 				</Switch>
 			</RestaurantContextProvider>
-		</Router></>
+		</Router>
 	);
 };
 
