@@ -8,18 +8,7 @@ import {
 	Typography,
 } from '@material-ui/core';
 
-/* import useStyle from '../Styles/MaterialStyles';
- */
-
-const useStyle = makeStyles( ( theme ) => ( {
-	bkgPage: {
-		maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0.3) 85%, rgba(0,0,0,0))',
-		objectFit: 'cover',
-		position: 'absolute',
-		zIndex: '-1',
-		height: '100vh',
-		width: '100%',
-	},
+const useStyle = makeStyles( ( ) => ( {
 	navBar: {
 		position: 'static',
 		color: 'coral',

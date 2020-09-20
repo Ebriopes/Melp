@@ -1,5 +1,4 @@
 import React, { useState }	from 'react';
-import useStyle				from '../Styles/MaterialStyles';
 
 import {
 	ExpandMore as ExpandMoreIcon,
@@ -14,8 +13,40 @@ import {
 	CardHeader,
 	Collapse,
 	IconButton,
+	makeStyles,
 	Typography,
 } from '@material-ui/core';
+
+const useStyle = makeStyles( (theme) => ({
+	card: {
+		margin:	'20px auto',
+		width:	'300px',
+		padding:'0 10px',
+	},
+	cardHeaderSub: {
+		display: 'flex',
+	},
+	cardHeaderTitle: {
+		height: '64px',
+	},
+	cardSubheader: {
+		marginLeft: 'auto',
+		marginRight: '10px',
+	},
+	cardContent: {
+		height: '72px',
+	},
+	expand: {
+		transform:	'rotate(0deg)',
+		marginLeft:	'auto',
+		transition:	theme.transitions.create( 'transform', {
+			duration:	theme.transitions.duration.shortest,
+		}),
+	},
+	expandOpen: {
+		transform: 'rotate(180deg)',
+	},
+} ) )
 
 const comment = ( rating, style ) => {
 	let phrase;

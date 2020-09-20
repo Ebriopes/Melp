@@ -1,16 +1,30 @@
 import React, { useContext, useRef, useState }	from 'react';
 import { RestaurantContext }	from '../Contexts/RestaurantContext';
-import useStyle 				from '../Styles/MaterialStyles';
 
 import {
 	Button,
 	ButtonGroup,
 	ClickAwayListener,
+	makeStyles,
 	MenuItem,
 	MenuList,
 	Paper,
 	Popper,
 } from '@material-ui/core';
+
+const useStyle = makeStyles( {
+	filterGroup: {
+		display:		'flex',
+		width:			'fit-content',
+		marginLeft:		'auto',
+		marginRight:	'5px',
+		backgroundColor:'beige',
+	},
+	filterBtn:{
+		backgroundColor:'inherit',
+		color:			'orangered',
+	},
+});
 
 function Filter ( ) {
 	const { sortAlpha, sortRating, showCards, setShowCards }= useContext(RestaurantContext);
