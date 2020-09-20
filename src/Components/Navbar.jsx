@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import {
 	AppBar,
+	makeStyles,
 	Toolbar,
 	Typography,
 } from '@material-ui/core';
